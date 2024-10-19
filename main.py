@@ -1,21 +1,6 @@
 import streamlit as st 
 from langchain_openai import ChatOpenAI
 
-warnings.filterwarnings("ignore")
-load_dotenv()
-
-# from langchain_openai import OpenAI
-# llm = OpenAI()
-# result = llm.invoke("Hi?")
-# print(result)   
-
-
-# content="미니"
-# result = chat_model.invoke(content + "에 대한 시를 써주세요.")
-# print("\n")
-# print(result.content)   
-
-
 st.title("시 작성기")
 chat_model = ChatOpenAI()
 
