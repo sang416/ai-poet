@@ -1,5 +1,3 @@
-from dotenv import load_dotenv
-import warnings
 import streamlit as st 
 from langchain_openai import ChatOpenAI
 
