@@ -1,7 +1,7 @@
 import streamlit as st 
 from langchain_openai import ChatOpenAI
 
-st.title("시 작성기")
+st.title("이상균의 시 작성기")
 chat_model = ChatOpenAI()
 
 content = st.text_input("시 작성을 위한 키워드를 입력해주세요.")
