@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 from streamlit_extras.buy_me_a_coffee import button
 
 components.iframe("https://ads-partners.coupang.com/widgets.html?id=816332&template=carousel&trackingCode=AF7997393", width=680, height=140)
+st.write("이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.")
 st.title("시 작성기")
 st.subheader(".....by Sanggyun Lee")
 st.write("---")
