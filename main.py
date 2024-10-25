@@ -9,6 +9,7 @@ st.title("시 작성기")
 st.subheader(".....by Sanggyun Lee")
 st.write("---")
 button(username="sang416", floating=True, width=221)
+st.logo(image="kakaopay.jpg", link="https://qr.kakaopay.com/Ej7ksNnpA138809698",size="large")
 chat_model = ChatOpenAI()
 
 content = st.text_input("시 작성을 위한 키워드를 입력해주세요.")
